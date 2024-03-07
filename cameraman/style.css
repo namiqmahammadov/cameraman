@@ -1,0 +1,284 @@
+*{
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+}
+
+h1{
+    font-family: Roboto ;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    Height:43.34px;
+    
+    
+
+}
+main{
+    margin: 56px 30.53px  36px ;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: auto; */
+}
+.two{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.par{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+img{
+    width: 170.55px;
+    
+    
+    
+   
+    
+}
+.bas{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 1px;
+
+}
+div p{
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+
+.foot .footsec{
+    margin-top: 45.71px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px;
+    align-items: start;
+    
+}
+.foot{
+    margin-top: 45.71px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px;
+    align-items: start;
+}
+
+.foot1 p:last-child{
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 86px;
+    height: 18px;
+    
+    
+
+}
+.foot2 p:last-child{
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 86.89px;
+    height: 18.5px;
+   
+    
+}
+.foot3 p:last-child{
+    font-family: Roboto;
+font-size: 10px;
+font-weight: 400;
+line-height: 13px;
+letter-spacing: 0em;
+text-align: left;
+width: 76px;
+height: 18px;
+
+
+
+}
+.img2{
+    display: none;
+}
+.nezeriye{
+    margin-top: 8px;
+    margin-bottom: 56px;
+}
+.basliq{
+    width: 100%;
+}
+ @media (min-width:830px){
+      h1{
+          font-family: Roboto ;
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 32px;
+          letter-spacing: 0em;
+          text-align: left;
+          
+           }
+           main{
+              margin: 56px  86.69px 180.05px 72px;
+           }
+           .two{
+              display: flex;
+              flex-direction: row;
+              gap: 110.04px;
+              
+           }
+           .par{
+              font-family: Roboto;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 21px;
+              letter-spacing: 0em;
+              text-align: left;
+            }
+            .img12 img {
+                width:181.86px ;
+                
+               }
+               .foot .footsec{
+                
+                display: flex;
+                gap: 53.86px;
+               }
+               .foot div p:first-child{
+                font-family: Roboto;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 19px;
+                letter-spacing: 0em;
+                text-align: left;
+
+               }
+               .foot div p:last-child{
+                font-family: Roboto;
+                font-size: 11px;
+                font-weight: 400;
+                line-height: 14px;
+                letter-spacing: 0em;
+                text-align: left;
+
+            
+               }
+               .foot{
+                width: 100%;
+               }
+               .nezeriye{
+                margin-top: 10.42px;
+               
+                margin-bottom: 30px;
+            }
+
+    }
+@media  (min-width: 1400px) { 
+   h1{
+    font-family: Roboto ;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+     }
+     main{
+        margin: 91px  150px 173px 124px;
+     }
+     
+
+     .two{
+        display: flex;
+        flex-direction: row;
+        gap: 190px;
+        
+     }
+     
+     .par{
+     font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+     }
+  .img12 img {
+    width:314px ;
+    
+   }
+   .img2{
+    display: inline-block;
+    width:232px ;
+    margin-right: 132px;
+
+   }
+   .foot{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+   }
+   
+   .foot div p:first-child{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+   }
+   .foot div p:last-child{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+   }
+   .nezeriye{
+    margin-top: 18px;
+    width: 80%;
+    margin-bottom: 94px;
+    
+   }
+  .foot .footsec{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 104px; 
+    flex-wrap: nowrap;
+   }
+ 
+
+    
+    }
+  
